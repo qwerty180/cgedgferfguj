@@ -67,6 +67,24 @@
    }
 
    body{
-       background-image: url(body_back.png);
+       background-image: url(1200px-Flag_of_Russia.png);
    }
-
+   a.lpButton:hover{
+       background: rgb(53, 167, 110)
+   }
+   a.lpButton:active{
+    background: rgb(33, 147, 90)
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+   }
+   .lp li{
+       list-style-type:none;
+   }
+   .lp.topmenu{
+       margin-left: -40px;
+   }
+   .lp ul li:hover .submenu {
+       display:block;
+   }
+   .lp .submenu {
+       display:none;
+   }
